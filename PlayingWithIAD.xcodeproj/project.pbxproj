@@ -14,6 +14,7 @@
 		01A5FCBD1AA4DE5A004A45FB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01A5FCBC1AA4DE5A004A45FB /* Images.xcassets */; };
 		01A5FCC01AA4DE5A004A45FB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01A5FCBE1AA4DE5A004A45FB /* LaunchScreen.xib */; };
 		01A5FCCC1AA4DE5A004A45FB /* PlayingWithIADTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A5FCCB1AA4DE5A004A45FB /* PlayingWithIADTests.m */; };
+		01A5FCD61AA4DF05004A45FB /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01A5FCD51AA4DF05004A45FB /* iAd.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		01A5FCC51AA4DE5A004A45FB /* PlayingWithIADTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlayingWithIADTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		01A5FCCA1AA4DE5A004A45FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		01A5FCCB1AA4DE5A004A45FB /* PlayingWithIADTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlayingWithIADTests.m; sourceTree = "<group>"; };
+		01A5FCD51AA4DF05004A45FB /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01A5FCD61AA4DF05004A45FB /* iAd.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +66,7 @@
 		01A5FCA31AA4DE5A004A45FB = {
 			isa = PBXGroup;
 			children = (
+				01A5FCD51AA4DF05004A45FB /* iAd.framework */,
 				01A5FCAE1AA4DE5A004A45FB /* PlayingWithIAD */,
 				01A5FCC81AA4DE5A004A45FB /* PlayingWithIADTests */,
 				01A5FCAD1AA4DE5A004A45FB /* Products */,
